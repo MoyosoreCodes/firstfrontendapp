@@ -1,0 +1,81 @@
+.NavbarItems {
+    background: lightskyblue;
+    height: 60px;
+    right: 0px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo {
+    color : #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fa-project-diagram {
+    margin-left : 0.5rem;
+    font-size: 1.6rem;
+}
+
+.menu-items {
+    display: none;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+
+
+
+.fa-bars {
+    transition: all ease-out 0.5s;
+    color: #fff;
+}
+
+.fa-times {
+    transition: all ease-out 0.5s;
+    color: #fff;
+}
+
+
+.menu-items-active {
+    z-index: 1000;
+    position: fixed;
+    right: 250px;
+    width: 100px;
+    height: auto;
+    margin-left: -250px;
+    overflow-y: auto;
+    border: 1px solid;
+    padding-left: 160px;
+    align-items: center;
+    background-color: lightseagreen;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+.menu-items-active li a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
